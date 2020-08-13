@@ -38,7 +38,7 @@ const animation = keyframes`
 
 `;
 
-export const StyledSpan = styled.span`
+const StyledSpan = styled.span`
     position: absolute;
     width: 24px;
     height: 24px;
