@@ -12,6 +12,12 @@ export const UnderTitle = styled.p`
     font-size: 2rem;
 `;
 
+export const StyledText = styled.p`
+    margin-top: 0rem;
+    color: black;
+    font-size: 1rem;
+`;
+
 export const UnderTitleBlack = styled.p`
     margin-top: 0rem;
     color: black;
@@ -31,4 +37,8 @@ export const CodingCard = styled.div`
 
 export const CodingCardText = styled.div`
     padding: 2px 16px;
+`;
+
+export const CodingCardImage = styled.img`
+    max-width: 100%;
 `;

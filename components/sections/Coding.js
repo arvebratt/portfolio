@@ -1,7 +1,13 @@
 import styled, { keyframes } from 'styled-components';
-import { Container, Grid, Paper, Box } from '@material-ui/core';
-import { sizing } from '@material-ui/system';
-import { Title, UnderTitle, CodingCard, CodingCardText } from '../Builders';
+import { Grid, Box } from '@material-ui/core';
+import {
+    Title,
+    UnderTitle,
+    CodingCard,
+    CodingCardText,
+    CodingCardImage,
+    StyledText,
+} from '../Builders';
 
 export const Coding = () => {
     return (
@@ -13,36 +19,28 @@ export const Coding = () => {
 
                 <Grid item xs={4} fullWidth>
                     <CodingCard>
+                        <CodingCardImage src='/helenhansson.png'></CodingCardImage>
                         <CodingCardText>
-                            <p>hejhej</p>
+                            <UnderTitle>hejhej</UnderTitle>
+                            <StyledText>hej igen</StyledText>
                         </CodingCardText>
                     </CodingCard>
                 </Grid>
                 <Grid item xs={4} fullWidth>
                     <CodingCard>
+                        <CodingCardImage src='/teknikfokus.jpg'></CodingCardImage>
                         <CodingCardText>
-                            <p>hejhej</p>
+                            <UnderTitle>hejhej</UnderTitle>
+                            <StyledText>hej igen</StyledText>
                         </CodingCardText>
                     </CodingCard>
                 </Grid>
                 <Grid item xs={4} fullWidth>
                     <CodingCard>
+                        <CodingCardImage src='/portfolio.png'></CodingCardImage>
                         <CodingCardText>
-                            <p>hejhej</p>
-                        </CodingCardText>
-                    </CodingCard>
-                </Grid>
-                <Grid item xs={8} fullWidth>
-                    <CodingCard>
-                        <CodingCardText>
-                            <p>hejhej</p>
-                        </CodingCardText>
-                    </CodingCard>
-                </Grid>
-                <Grid item xs={4} fullWidth>
-                    <CodingCard>
-                        <CodingCardText>
-                            <p>hejhej</p>
+                            <UnderTitle>hejhej</UnderTitle>
+                            <StyledText>hej igen</StyledText>
                         </CodingCardText>
                     </CodingCard>
                 </Grid>
