@@ -69,9 +69,6 @@ export const Coding = () => {
                   Serverside rendered website written in React using
                   Styled-Components.
                 </StyledSmallCardText>
-                <LinkSource href="https://arvebratt.com/">
-                  View Website
-                </LinkSource>{" "}
                 <LinkSource href="https://github.com/arvebratt/portfolio">
                   View Source
                 </LinkSource>
