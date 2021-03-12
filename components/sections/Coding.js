@@ -63,7 +63,7 @@ export const Coding = () => {
         <Grid item xs={6} fullWidth>
           <Grid container spacing={1}>
             <Grid item xs={12} fullWidth>
-              <OldPortfoliocard>
+              <NewPortfoliocard>
                 <StyledSmallCardTitle>This Portfolio</StyledSmallCardTitle>
                 <StyledSmallCardText>
                   Serverside rendered website written in React using
@@ -71,20 +71,26 @@ export const Coding = () => {
                 </StyledSmallCardText>
                 <LinkSource href="https://arvebratt.com/">
                   View Website
+                </LinkSource>{" "}
+                <LinkSource href="https://github.com/arvebratt/portfolio">
+                  View Source
                 </LinkSource>
-              </OldPortfoliocard>
+              </NewPortfoliocard>
             </Grid>
 
             <Grid item xs={12} fullWidth>
-              <NewPortfoliocard>
+              <OldPortfoliocard>
                 <StyledSmallCardTitle>Old Portfolio</StyledSmallCardTitle>
                 <StyledSmallCardText>
                   Pure CSS and HTML website.
                 </StyledSmallCardText>
                 <LinkSource href="https://arvebratt.com/">
                   View Website
+                </LinkSource>{" "}
+                <LinkSource href="https://github.com/arvebratt/arvebratt.github.io">
+                  View Source
                 </LinkSource>
-              </NewPortfoliocard>
+              </OldPortfoliocard>
             </Grid>
           </Grid>
         </Grid>
@@ -166,7 +172,7 @@ const OldPortfoliocard = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   color: black;
-  background-color: #bfc9a8;
+  background-color: #f2b6a0;
 
   &:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
@@ -178,7 +184,7 @@ const NewPortfoliocard = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   color: black;
-  background-color: #f2b6a0;
+  background-color: #bfc9a8;
 
   &:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
